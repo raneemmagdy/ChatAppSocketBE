@@ -4,12 +4,12 @@ A real-time chat application backend using **Node.js**, **Express.js**, **Socket
 
 ## 🚀 Features
 
-- 🔒 **Authentication & Authorization** (JWT-based)
-- 💬 **Real-time Messaging** using Socket.io
-- 📁 **Media Uploads** via Multer & Cloudinary
-- 🗄️ **MongoDB Database** with Mongoose ORM
-- 📧 **Email Notifications** via Nodemailer
-- 🔄 **Token Refresh System**
+🔐 User Authentication (JWT-based)
+💬 Real-time messaging using Socket.io
+📩 Store chat history in MongoDB using mongoose (ODM)
+📁 **Media Uploads** via Multer & Cloudinary
+📧 **Email Notifications** via Nodemailer
+🔄 **Token Refresh System**
 
 ## 🛠️ Tech Stack
 
