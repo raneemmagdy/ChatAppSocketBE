@@ -98,6 +98,16 @@ socket.on("disconnect", async () => {
 });
 ```
 
+### 📌 Events
+
+| Event Name      | Description                |
+|----------------|----------------------------|
+| `sendMessage`  | Sends a message            |
+| `receiveMessage` | Receives a message       |
+| `authError`    | Authentication error       |
+| `disconnect`   | User disconnects           |
+
+
 ## 📩 REST API Documentation
 
 Postman API Docs: [View Here](https://documenter.getpostman.com/view/26311189/2sAYdbQE9U)
