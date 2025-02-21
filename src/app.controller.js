@@ -29,7 +29,7 @@ const bootstrap=(app,express)=>{
     app.use('/chat',chatRouter)
 
     app.get('/',(req,res,next)=>{
-        return res.status(200).json({message:"Welcome To My Social Media App"})
+        return res.status(200).json({message:"Welcome To My Chat App"})
     })
     app.use('*',(req,res,next)=>{
         return next(new Error('Page Not Found 404 !',{cause:404}))
