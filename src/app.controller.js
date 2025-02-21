@@ -19,7 +19,11 @@ const limiter=rateLimit({
 const bootstrap=(app,express)=>{
     app.use(morgan('dev'))
     app.use(helmet())
-    app.use(cors())
+    app.use(cors({
+        origin: "https://raneem-chat-app.netlify.app", 
+        methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+        credentials: true 
+    }))
     app.use(limiter)
     app.use('/uploads',express.static(path.resolve('uploads')))
 
